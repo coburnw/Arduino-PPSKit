@@ -1,0 +1,13 @@
+# emacs stuff
+*~
+*#
+
+# arduino stuff
+*.lst
+*.map
+output
+output/*
+
+# misc
+junk
+junk/*

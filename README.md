@@ -1,7 +1,7 @@
 # Arduino-PPSKit
 A library of boilerplate and examples for creating interworking clocks by people interested in keeping track of time.
 
-This library attempts to distill the core time-keeping concepts presented in RFC1589, RFC2783, and RFC5905 standards into a set of simple classes, while discarding the NTP protocol and underlying tcp/ip stack the standards were meant to support.  If you are in need of a method to syncronize a clock to a reference clock without the burden of the internet, this library may be of help.
+This library attempts to distill the core time-keeping concepts presented in the RFC1589, RFC2783, and RFC5905 standards into a set of simple classes, while discarding the NTP protocol and underlying tcp/ip stack the standards were meant to support.  If you are would like to syncronize a local system clock to a reference clock without the burden of the internet, this library may be of help.
 
 ## Classes
 ### SystemClock() - A local, setable clock.
@@ -30,9 +30,9 @@ A class to retain and manipulate an instant of time.
   * EmuRTC-System-Clock
 
 ## References
-  * https://www.rfc-editor.org/info/rfc1589/
-  * https://www.rfc-editor.org/info/rfc2783/
-  * https://www.rfc-editor.org/info/rfc5905/
+  * [RFC 1589](https://www.rfc-editor.org/info/rfc1589/) A Kernel Model for Precision Timekeeping
+  * [RFC 2783](https://www.rfc-editor.org/info/rfc2783/) Pulse-Per-Second API for UNIX-like Operating Systems, Version 1.0
+  * [RFC 5905](https://www.rfc-editor.org/info/rfc5905/) Network Time Protocol Version 4: Protocol and Algorithms Specification
   
 ## Todo
   * pll wont lock. Get a stable pps before debugging. 
